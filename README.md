@@ -9,7 +9,20 @@ ya que es una apgina web echo en javascript donde pedimos una peticion de guarda
 <br></br>
 aparte lo que me ofrece el jsonbin es un panel donde puedo ver lo que comentan o guardan los de bloque de texto asi tener una aplica de aplicaciones al administracion para la seguridad del usuario y normativas de la redes 
 ![image](https://github.com/AvastrOficial/PasteBSZ/assets/91764815/9b905c87-ed02-44f3-bd6e-c2f8fcf28896)
-
+<br></br>
+## Descripción :
+Este proyecto permite guardar y compartir archivos de texto mediante la API de jsonbin.io y facilita la interacción del usuario mediante una interfaz web simple.
+<br></br>
+### Características :
+Detecta la carga completa del DOM: Usa DOMContentLoaded para asegurarse de que el DOM esté completamente cargado antes de ejecutar el código.
+Recupera el ID del bin de la URL: Usa URLSearchParams para obtener el id de la URL.
+Si hay un ID: Envía una solicitud GET a la API de jsonbin.io para recuperar el contenido del bin.
+Headers: Incluye la clave de la API y la clave de acceso.
+Maneja la respuesta: Si la respuesta es correcta, procesa el JSON.
+Actualiza el DOM: Llena los campos de texto con los datos recuperados y oculta el botón de guardar.
+Maneja errores: Si hay un error, muestra un mensaje de error.
+### Uso de la pagina web : 
+Este código permite guardar y compartir archivos de texto mediante la API de jsonbin.io y facilita la interacción del usuario mediante una interfaz web simple.
 ## Deseas usar nuestra herramienta ?
 link version 0.0.1 : https://toolapikey.foroactivo.com/h10-pastebsz	
 
