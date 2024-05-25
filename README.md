@@ -9,8 +9,6 @@ ya que es una apgina web echo en javascript donde pedimos una peticion de guarda
 <br></br>
 aparte lo que me ofrece el jsonbin es un panel donde puedo ver lo que comentan o guardan los de bloque de texto asi tener una aplica de aplicaciones al administracion para la seguridad del usuario y normativas de la redes 
 ![image](https://github.com/AvastrOficial/PasteBSZ/assets/91764815/9b905c87-ed02-44f3-bd6e-c2f8fcf28896)
-
-<br></br>
 ### Características :
 Detecta la carga completa del DOM: Usa DOMContentLoaded para asegurarse de que el DOM esté completamente cargado antes de ejecutar el código.
 <br></br>
