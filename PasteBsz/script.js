@@ -14,8 +14,8 @@
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'X-Master-Key': '$2a$10$/CXelVC4xLjkRon.u3NeweWC.iS69xsG84Q2RAuG0eTJOPbBlZAvu', // Reemplaza con tu propia API key
-                    'X-Access-Key': '$2a$10$Dn.CeRxSbAWDwBbSK7WYfOAig6Ue9PVSLm35Lcdu5TA4h1kyZIFHi' // Reemplaza con tu propia Access Key
+                    'X-Master-Key': '', // Reemplaza con tu propia API key
+                    'X-Access-Key': '' // Reemplaza con tu propia Access Key
                 },
                 body: JSON.stringify({ postName, text })
             })
@@ -54,8 +54,8 @@
                 fetch(`https://api.jsonbin.io/v3/b/${id}/latest`, {
                     method: 'GET',
                     headers: {
-                        'X-Master-Key': '$2a$10$/CXelVC4xLjkRon.u3NeweWC.iS69xsG84Q2RAuG0eTJOPbBlZAvu', // Reemplaza con tu propia API key
-                        'X-Access-Key': '$2a$10$Dn.CeRxSbAWDwBbSK7WYfOAig6Ue9PVSLm35Lcdu5TA4h1kyZIFHi' // Reemplaza con tu propia Access Key
+                        'X-Master-Key': '', // Reemplaza con tu propia API key
+                        'X-Access-Key': '' // Reemplaza con tu propia Access Key
                     }
                 })
                 .then(response => {
