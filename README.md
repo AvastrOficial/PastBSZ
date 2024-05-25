@@ -12,3 +12,5 @@ aparte lo que me ofrece el jsonbin es un panel donde puedo ver lo que comentan o
 
 ## Deseas usar nuestra herramienta ?
 link version 0.0.1 : https://toolapikey.foroactivo.com/h10-pastebsz	
+
+![image](https://github.com/AvastrOficial/PasteBSZ/assets/91764815/e039d97f-f113-444f-af4e-e7fb5886e762)
