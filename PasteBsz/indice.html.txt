@@ -1,0 +1,82 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasteBsz</title>
+<!--
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣹⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢁⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣶⣾⣿⣿⣿⣿⣶⣶⣤⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⡀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡅⠠⣄⠀⠀⠀⠀⢀⠔⣱⣿⠇⠀
+⠀⠀⠀⠀⠀⠀⢐⣵⡿⢷⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡑⠢⡀⠀⣡⣾⣿⠏⠀⠀
+⠀⠀⠀⠓⠒⣺⣿⣿⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣴⣿⣿⣿⢇⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⢹⣿⣿⡿⡧⠁⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⡏⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢀⡜⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣹⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⣄⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠐⣒⡛⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢤⣾⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⠉⠓⣼⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠁⠀⠀⡀⢉⣽⢆⠀⣾⠿⢿⣿⠟⠟⠛⢷⣿⣿⣿⣿⡷⡄⠀⠀⠀⠀⠀
+⠀⠀⢻⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⠛⠤⣤⠤⠧⠘⠛⠚⠆⠀⠀⠋⠁⣄⣨⡿⠀⢹⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣟⡟⠛⣟⣹⠿⣿⣿⣿⣿⣿⠿⣷⢛⡽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠋⠁⡠⢼⣿⣟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠘⣿⣿⣿⣿⣿⣦⠘⣿⣄⠀⠙⣿⣿⠿⠷⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠚⢻⣳⡟⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢹⣿⣿⣿⣿⣿⣷⣜⠛⠒⠤⣽⣿⡄⠀⠀⠀⠀⠀⠀⣰⣖⢒⣶⣢⠤⠿⣄⠀⠀⠀⠀⠀⣼⡟⢱⠈⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣷⣤⣶⣿⣿⢷⣄⠀⠀⠀⠀⠀⣿⡿⣿⣿⣿⣿⡀⠻⡟⠀⠀⠀⣰⣿⡇⠘⡄⠀⠀⠀⠀⠀⠀
+⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⠀⠀⠀⠀⠀⠙⢄⡈⠉⠹⣿⣧⠀⠘⢦⣠⣾⡿⠿⡇⠀⢻⠢⠀⠀⠀⠀⠀
+⢀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠲⠄⠀⠀⠀⠀⠀⠈⠉⠚⠋⠁⠳⣄⡸⠉⡟⠀⢀⡜⣄⡀⠧⡑⢄⠀⠀⠀
+⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⣠⣄⣤⣄⣀⡀⠀⠀⢀⣴⣿⠁⢸⠀⠀⣸⣤⠤⠀⠀⢱⡀⢢⠀⠀
+⠀⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⢿⣿⣿⣻⡟⠻⣿⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⡗⠉⠉⣋⣵⠓⡤⠄⠀⠀⠱⡀⠃⠀
+⠀⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡶⠆⠩⠥⣙⡿⠟⠉⠿⠋⠉⠙⢿⣿⠀⠐⢲⠗⠙⠻⣿⡄⠀⠀⠀⠑⡄⠀
+⠀⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⣇⠀⠀⠀⠀⠉⠢⠀⠀⠀⠠⠒⠉⠉⢣⡀⠊⠀⠀⠀⠹⠷⡀⠀⠀⠀⠸⡀
+⠀⠌⢿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠒⠤⣄⡀⠀⠀⠈⠁⢠⣤⣤⣧
+⠀⠀⠈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠓⠲⠈⠈⠒⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠶⠶⠞⠛⠛⠛⠛
+⠀⠀⠀⠀⠙⡦⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    
+    
+    si deceas ver codigo visita el repositorio :
+    https://github.com/AvastrOficial/PasteBSZ
+    -->
+      
+</head>
+<body>
+    <div id="container">
+        <div id="application">
+            <section id="content">
+                <h1>PasteBsz</h1>
+                <form id="paste-form" action="https://toolapikey.foroactivo.com/post?f=1&mode=newtopic" method="post">
+                    <div class="column full">
+                        <section>
+                            <label for="post_name">Nombre del post:</label>
+                            <input type="text" id="post_name" name="subject" value="" maxlength="255" tabindex="1" title="La longitud del título del tema debe ser entre 10 y 255 caracteres" onkeypress="if(event.keyCode==13) { return false; }" class="input-subtle">
+                        </section>
+                        <section>
+                            <label for="code">
+Bloque en línea: Escribe tu texto en el cuadrado
+<br></br>
+Unete a nuestras redes sociales :
+<br></br>
+                       <div class="social-icons">
+      <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+      <a href="https://t.me/BSZ_CRACKING"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+      <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+    </div>
+</label>
+                            <div>
+                                <textarea class="required" id="code" name="code" style="height: 150px;"></textarea>
+                            </div>
+                        </section>
+                        <input type="hidden" name="parent" id="parent" value="">
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <input type="button" value="Guardar" id="save-button">
+                    </div>
+                </form>
+                <div id="link-container" style="display: none;">
+                    <input type="text" id="generated-link" readonly>
+                    <button id="copy-button">Copiar Enlace</button>
+                </div>
+            </section>
+        </div>
+    </div>
+  
+</body>
+</html>
