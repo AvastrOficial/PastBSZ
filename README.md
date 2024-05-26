@@ -1,6 +1,7 @@
 # PasteBsz
 
 Es una herramienta donde puedes guardar texto online. Puedes enviar y compartirlo con tus amigos. También podrás descargar el texto o copiarlo directamente. Está en desarrollo.
+maximo de 3mil caracteres 
 
 ### Que api se utilizo ?
 se utilizo https://jsonbin.io/
