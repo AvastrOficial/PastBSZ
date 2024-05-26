@@ -26,6 +26,6 @@ Maneja errores: Si hay un error, muestra un mensaje de error.
 ### Uso de la pagina web : 
 Este código permite guardar y compartir archivos de texto mediante la API de jsonbin.io y facilita la interacción del usuario mediante una interfaz web simple.
 ## Deseas usar nuestra herramienta ?
-link version 0.0.1 : https://toolapikey.foroactivo.com/h10-pastebsz	
+link version 0.0.2 : https://toolapikey.foroactivo.com/h10-pastebsz	
 
 ![image](https://github.com/AvastrOficial/PasteBSZ/assets/91764815/e039d97f-f113-444f-af4e-e7fb5886e762)
